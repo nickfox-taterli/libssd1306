@@ -7,8 +7,8 @@
 #include <sys/ioctl.h>
 #include <linux/spi/spidev.h>
 
-#define PI3_PERI_BASE        0x3F000000
-#define GPIO_BASE                (PI3_PERI_BASE + 0x200000) /* GPIO controller */
+#define PI_PERI_BASE             0x20000000
+#define GPIO_BASE                (PI_PERI_BASE + 0x200000) /* GPIO controller */
 
 #include <stdio.h>
 #include <stdlib.h>
